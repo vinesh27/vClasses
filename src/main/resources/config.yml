@@ -1,0 +1,29 @@
+portals:
+  portalOne:
+    startCords:
+      x: 69
+      'y': 69
+      z: 69
+    endCords:
+      x: 169
+      'y': 69
+      z: 169
+    rewards:
+        commands:
+          - "/give %p% dumbItem"
+          - "/kill %p%"
+        items:
+          itemOne:
+            id: ITEM_ID
+            amount: 1
+        potionEffects:
+          one:
+            name: FIRE_RESISTANCE
+            duration: 69
+            level: 4
+            particles: true
+          two:
+            name: FIRE_RESISTANCE
+            duration: 69
+            level: 4
+            particles: true

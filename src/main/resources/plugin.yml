@@ -1,0 +1,11 @@
+name: VClasses
+version: '${project.version}'
+main: io.github.vinesh27.vclasses.VClasses
+api-version: 1.18
+authors: [ vinesh27 ]
+description: A classes plugin with customization at its max
+website: https://twitter.com/vineshCodes
+commands:
+  vreload:
+    description: Reloads the plugin
+    usage: /<command>
